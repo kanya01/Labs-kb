@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_System Map/Architecture.md",
+                "file": "Dashboard.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Architecture"
+              "title": "Dashboard"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_System Map/Architecture.md",
+                "file": "Dashboard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Architecture"
+              "title": "Backlinks for Dashboard"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_System Map/Architecture.md",
+                "file": "Dashboard.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Architecture"
+              "title": "Outgoing links from Dashboard"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_System Map/Architecture.md",
+                "file": "Dashboard.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Architecture"
+              "title": "Outline of Dashboard"
             }
           }
         ]
@@ -187,6 +187,10 @@
   },
   "active": "a82868c83c5e1da5",
   "lastOpenFiles": [
+    "2026-02-20.md",
+    "Dashboard.md",
+    "Welcome.md",
+    "_System Map/Architecture.md",
     "Docs/INDEX.md",
     "Docs/admin/ADMIN_HUB_PLAN.md",
     "Docs/testing/FRONTEND_TESTING_PLAN.md",
@@ -196,7 +200,6 @@
     "Docs/discovery/DISCOVERY_FLOW_ISSUES.md",
     "Docs/discovery/DISCOVERY_FLOW_PLAN.md",
     "Docs/discovery",
-    "Dashboard.md",
     "Docs/messaging/MESSAGING_ENHANCEMENT_PLAN.md",
     "Docs/messaging",
     "Docs/email/EMAIL_SYSTEM_ISSUES.md",
@@ -217,10 +220,7 @@
     "Docs/services",
     "Docs/deployment/DEPLOYMENT_SETUP.md",
     "Docs/deployment",
-    "Docs/api/AUTH0_SETUP.md",
-    "Docs/api/API_OVERVIEW.md",
     "Docs/api",
-    "Docs/design/STYLES_AND_CONVENTIONS.md",
     "Docs/design",
     "_templates"
   ]
