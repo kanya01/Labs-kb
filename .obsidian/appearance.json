@@ -1,1 +1,6 @@
-{}
+{
+  "cssTheme": "Obsidian gruvbox",
+  "accentColor": "#f4ee3e",
+  "interfaceFontFamily": "Courier New",
+  "translucency": true
+}
