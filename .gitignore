@@ -1,0 +1,12 @@
+# Obsidian internals
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.trash/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large attachment folders (optional, remove if you want to track these)
+# attachments/
