@@ -11,24 +11,10 @@
             "id": "8f291acb02c075dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dashboard.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Dashboard"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -104,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dashboard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Dashboard"
+              "title": "Backlinks"
             }
           },
           {
@@ -123,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dashboard.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Dashboard"
+              "title": "Outgoing links"
             }
           },
           {
@@ -166,21 +150,30 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dashboard.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Dashboard"
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "b063bc34e1ddb0e0",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,6 +190,8 @@
   },
   "active": "8f291acb02c075dc",
   "lastOpenFiles": [
+    "Docs/testing/TESTING_STRATEGY.md",
+    "Dashboard.md",
     "_System Map/Architecture.md",
     "_System Map/Decisions.md",
     "Docs/PLATFORM_ROADMAP.md",
@@ -208,7 +203,6 @@
     "Docs/services/SERVICES_WORKFLOW_ENABLEMENT_PLAN.md",
     "Docs/design/DESIGN_AND_ROADMAP.md",
     "Issues/Open/[.md",
-    "Dashboard.md",
     "Issues/Open/[",
     "Docs/api/API_OVERVIEW.md",
     "2026-02-20.md",
@@ -216,7 +210,6 @@
     "Docs/INDEX.md",
     "Docs/admin/ADMIN_HUB_PLAN.md",
     "Docs/testing/FRONTEND_TESTING_PLAN.md",
-    "Docs/testing/TESTING_STRATEGY.md",
     "Docs/testing/TESTING_GUIDE.md",
     "Docs/testing",
     "Docs/discovery/DISCOVERY_FLOW_ISSUES.md",
