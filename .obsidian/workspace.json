@@ -180,6 +180,7 @@
   },
   "active": "8f291acb02c075dc",
   "lastOpenFiles": [
+    "Progress/2026-02-21.md",
     "_System Map/Components.md",
     "_System Map/Decisions.md",
     "Docs/admin/SUPPORT_SYSTEM_PLAN.md",
@@ -211,7 +212,6 @@
     "Docs/admin",
     "Docs/services/FILE_UPLOAD_GUIDE.md",
     "Docs/services/SELLER_GUIDE.md",
-    "Docs/services/BUYER_GUIDE.md",
     "Docs/services",
     "Docs/deployment",
     "Docs/api",
