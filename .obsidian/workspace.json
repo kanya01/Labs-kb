@@ -4,17 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "93f75fd532998a59",
+        "id": "52db8695d5edc649",
         "type": "tabs",
         "children": [
           {
-            "id": "d4a68ee80b8c4a58",
+            "id": "b58ae5a5cec8faed",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Docs/PLATFORM_ROADMAP.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "PLATFORM_ROADMAP"
             }
           }
         ]
@@ -49,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#ux",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a27f8bd7db034670",
@@ -91,6 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Docs/PLATFORM_ROADMAP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for PLATFORM_ROADMAP"
             }
           },
           {
@@ -109,11 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Docs/PLATFORM_ROADMAP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from PLATFORM_ROADMAP"
             }
           },
           {
@@ -151,12 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Docs/PLATFORM_ROADMAP.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of PLATFORM_ROADMAP"
             }
           }
         ]
@@ -179,8 +195,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d4a68ee80b8c4a58",
+  "active": "b58ae5a5cec8faed",
   "lastOpenFiles": [
+    "Docs/api/API_OVERVIEW.md",
+    "_System Map/Decisions.md",
     "_System Map/Architecture.md",
     "Dashboard.md",
     "2026-02-20.md",
@@ -210,9 +228,7 @@
     "Docs/services/SERVICES_WORKFLOW_IMPLEMENTATION_ISSUES.md",
     "Docs/services/SERVICES_WORKFLOW_IMPLEMENTATION_GUIDE.md",
     "Docs/services/SERVICES_WORKFLOW_ENABLEMENT_PLAN.md",
-    "Docs/services/STRIPE_INTEGRATION.md",
     "Docs/services",
-    "Docs/deployment/DEPLOYMENT_SETUP.md",
     "Docs/deployment",
     "Docs/api",
     "Docs/design",

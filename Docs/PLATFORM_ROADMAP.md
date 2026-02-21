@@ -20,16 +20,16 @@ Full roadmap for the live.o music collaboration marketplace.
 
 ## Phase Status Summary
 
-| Phase | Scope | Duration | Status |
-|---|---|---|---|
-| Phase 1 | Core Platform | — | ✅ Complete |
-| Phase 2 | Email & Notifications | — | ✅ Complete |
-| Phase 3 | Tech Debt Resolution | 2–3 weeks | 🔧 Next |
-| Phase 4 | Admin Hub | 3–4 weeks | 📋 Planned |
-| Phase 5 | Support System | 2–3 weeks | 📋 Planned |
-| Phase 6a | Reviews & Ratings | 2–3 weeks | 📋 Planned |
+| Phase    | Scope                      | Duration  | Status     |
+| -------- | -------------------------- | --------- | ---------- |
+| Phase 1  | Core Platform              | —         | ✅ Complete |
+| Phase 2  | Email & Notifications      | —         | ✅ Complete |
+| Phase 3  | Tech Debt Resolution       | 2–3 weeks | 🔧 Next    |
+| Phase 4  | Admin Hub                  | 3–4 weeks | 📋 Planned |
+| Phase 5  | Support System             | 2–3 weeks | 📋 Planned |
+| Phase 6a | Reviews & Ratings          | 2–3 weeks | 📋 Planned |
 | Phase 6b | Service-Oriented Messaging | 4–6 weeks | 📋 Planned |
-| Phase 7 | Polish & Scale | Ongoing | 🔮 Future |
+| Phase 7  | Polish & Scale             | Ongoing   | 🔮 Future  |
 
 ---
 
@@ -46,9 +46,12 @@ See [[Docs/email/EMAIL_NOTIFICATION_STATUS]].
 ## 🔧 Phase 3 — Tech Debt (Next)
 
 Four issues to resolve before adding features. See [[Docs/services/SERVICES_KNOWN_ISSUES]]:
-- **3.1** Hardcoded service data in frontend → replace with dynamic API fetching (P1, 2–3 days)
-- **3.2** Order & sell scoping — ensure buyer/seller isolation, prevent self-purchase (P1, 2–3 days)
+- **3.1** ~~Hardcoded service data in frontend → replace with dynamic API fetching (P1, 2–3 days)~~
+	- Resolved
+- **3.2** ~~Order & sell scoping — ensure buyer/seller isolation, prevent self-purchase (P1, 2–3 days)~~
+	- Resolved
 - **3.3** Auth persistence — token refresh, cross-tab sync, session recovery (P2, 3–5 days)
+	- Investigatin
 - **3.4** Lint & type check failures — fix ESLint violations, TypeScript errors; make CI blocking (P1, 2–3 days)
 
 ## 📋 Phase 4 — Admin Hub (Planned, 3–4 weeks)
