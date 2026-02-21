@@ -11,24 +11,10 @@
             "id": "8f291acb02c075dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_System Map/Components.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Components"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -104,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_System Map/Components.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Components"
+              "title": "Backlinks"
             }
           },
           {
@@ -123,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_System Map/Components.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Components"
+              "title": "Outgoing links"
             }
           },
           {
@@ -166,13 +150,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_System Map/Components.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Components"
+              "title": "Outline"
             }
           }
         ]
@@ -197,8 +180,8 @@
   },
   "active": "8f291acb02c075dc",
   "lastOpenFiles": [
-    "_System Map/Decisions.md",
     "_System Map/Components.md",
+    "_System Map/Decisions.md",
     "Docs/admin/SUPPORT_SYSTEM_PLAN.md",
     "_System Map/Architecture.md",
     "Docs/services/SERVICES_WORKFLOW_ENABLEMENT_PLAN.md",
