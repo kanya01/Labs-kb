@@ -85,7 +85,7 @@ See [[Docs/api/AUTH0_SETUP]] for configuration details.
 Two-sided payment flow:
 - **Buyers** pay via Stripe Elements (`PaymentIntent`)
 - **Sellers** receive payouts via **Stripe Connect** (14-day hold, then `Transfer`)
-- Webhooks handle async events: `payment_intent.succeeded`, `payment_intent.failed`, `payment_intent.canceled`
+- **Webhooks** handle async events: `payment_intent.succeeded`, `payment_intent.failed`, `payment_intent.canceled`
 
 See [[Docs/services/STRIPE_INTEGRATION]] for full setup.
 

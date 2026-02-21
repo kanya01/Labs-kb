@@ -11,10 +11,24 @@
             "id": "8f291acb02c075dc",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "_System Map/Architecture.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Architecture"
             }
           }
         ]
@@ -90,6 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_System Map/Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Architecture"
             }
           },
           {
@@ -108,11 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_System Map/Architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Architecture"
             }
           },
           {
@@ -150,12 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "_System Map/Architecture.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Architecture"
             }
           }
         ]
@@ -180,12 +197,12 @@
   },
   "active": "8f291acb02c075dc",
   "lastOpenFiles": [
+    "_System Map/Decisions.md",
     "Docs/PLATFORM_ROADMAP.md",
     "Docs/email/EMAIL_SYSTEM_PLAN.md",
     "Progress/2026-02-21.md",
     "Progress/Milestones.md",
     "_System Map/Components.md",
-    "_System Map/Decisions.md",
     "Docs/admin/SUPPORT_SYSTEM_PLAN.md",
     "_System Map/Architecture.md",
     "Docs/services/SERVICES_WORKFLOW_ENABLEMENT_PLAN.md",
