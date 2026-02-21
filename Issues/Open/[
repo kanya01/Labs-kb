@@ -1,0 +1,301 @@
+---
+title: "[#76] Admin hub"
+type: issue
+status: open
+linked-repo: https://github.com/kanya01/COLABS
+linked-pr: ""
+linked-issue: https://github.com/kanya01/COLABS/issues/76
+tags: [backend, api, dashboard, critical]
+updated: 2026-02-21
+---
+
+# [#76] Admin hub
+
+> **GitHub**: https://github.com/kanya01/COLABS/issues/76
+> **Opened**: 2026-01-30
+> **Labels**: `backend` `api` `dashboard` `critical`
+> **Assignee**: —
+
+## Description
+
+Private admin backhub for overseeing errors, issues, etc.
+
+## Related Notes
+
+- [[Docs/admin/ADMIN_HUB_PLAN]] — Full specification for this feature
+- [[Docs/PLATFORM_ROADMAP]] — Phase 4
+---
+title: "[#57] Dockerize Development Environment"
+type: issue
+status: open
+linked-repo: https://github.com/kanya01/COLABS
+linked-pr: ""
+linked-issue: https://github.com/kanya01/COLABS/issues/57
+tags: [documentation, priority-critical, devops]
+updated: 2026-02-21
+---
+
+# [#57] Dockerize Development Environment
+
+> **GitHub**: https://github.com/kanya01/COLABS/issues/57
+> **Opened**: 2026-01-23
+> **Labels**: `documentation` `priority:critical` `devops`
+> **Assignee**: —
+> **Blocking**: [[Issues/Open/[#55] Implement testing strategy for front end typescript components]]
+
+## Description
+
+Create a Docker-based development environment with docker-compose to simplify onboarding and ensure consistency across developer machines.
+
+**Current state**: Production Dockerfiles exist but no dev environment setup.
+**Proposed**: `docker-compose.yml` with frontend, backend, and PostgreSQL containers.
+**Benefit**: One command (`docker-compose up`) to start developing.
+
+## Acceptance Criteria
+
+- [ ] `docker-compose.yml` with all services
+- [ ] Dev Dockerfiles with hot reloading
+- [ ] Database auto-migration/seeding
+- [ ] Updated documentation
+
+## Related Notes
+
+- [[Docs/deployment/DEPLOYMENT_SETUP]] — Production deployment reference
+---
+title: "[#55] Implement testing strategy for front end typescript components"
+type: issue
+status: open
+linked-repo: https://github.com/kanya01/COLABS
+linked-pr: ""
+linked-issue: https://github.com/kanya01/COLABS/issues/55
+tags: []
+updated: 2026-02-21
+---
+
+# [#55] Implement testing strategy for front end typescript components
+
+> **GitHub**: https://github.com/kanya01/COLABS/issues/55
+> **Opened**: 2026-01-23
+> **Labels**: —
+> **Assignee**: —
+> **Blocked by**: [[Issues/Open/[#57] Dockerize Development Environment]]
+> **Blocking**: [[Issues/Open/[#54] Fix failing lint & type checks]] · [[Issues/Open/[#22] End-to-End Integration Tests for Critical Workflows]]
+
+## Description
+
+Investigate testing strategies from a component level (unit level) to e2e test to ensure robustness across the whole flow. Critically, start with core services/API interactions — where to implement unit-level Jest/Mocha testing and whether a service/system such as Cypress may be useful.
+
+## Related Notes
+
+- [[Docs/testing/FRONTEND_TESTING_PLAN]] — Detailed Cypress & Jest plan
+- [[Docs/testing/TESTING_STRATEGY]] — Overall coverage goals
+- [[Docs/testing/TESTING_GUIDE]] — How to run tests
+---
+title: "[#54] Fix failing lint & type checks"
+type: issue
+status: open
+linked-repo: https://github.com/kanya01/COLABS
+linked-pr: ""
+linked-issue: https://github.com/kanya01/COLABS/issues/54
+tags: [priority-critical, frontend, ui, quality]
+updated: 2026-02-21
+---
+
+# [#54] Fix failing lint & type checks
+
+> **GitHub**: https://github.com/kanya01/COLABS/issues/54
+> **Opened**: 2026-01-23
+> **Labels**: `priority:critical` `frontend` `ui` `quality`
+> **Assignee**: kanya01
+> **Blocked by**: [[Issues/Open/[#55] Implement testing strategy for front end typescript components]]
+
+## Description
+
+Fix accumulated ESLint violations and TypeScript type check failures across the frontend codebase. Make lint and type checks blocking in CI once resolved.
+
+This is a Phase 3 tech debt item — see [[Docs/services/SERVICES_KNOWN_ISSUES]] (Issue 4).
+
+## Related Notes
+
+- [[Docs/services/SERVICES_KNOWN_ISSUES]] — Tech debt tracker, Issue 4
+- [[Docs/deployment/DEPLOYMENT_SETUP]] — CI pipeline where these checks run
+---
+title: "[#26] Production Configuration and Deployment Setup"
+type: issue
+status: open
+linked-repo: https://github.com/kanya01/COLABS
+linked-pr: ""
+linked-issue: https://github.com/kanya01/COLABS/issues/26
+tags: [enhancement, epic-services-workflow, deployment, devops]
+updated: 2026-02-21
+---
+
+# [#26] Production Configuration and Deployment Setup
+
+> **GitHub**: https://github.com/kanya01/COLABS/issues/26
+> **Opened**: 2026-01-14 · **Updated**: 2026-01-28
+> **Labels**: `enhancement` `epic:services-workflow` `deployment` `devops`
+> **Assignee**: —
+> **Ref**: Services Workflow Implementation Issues #20
+
+## Description
+
+Set up production environment with Stripe live credentials and monitoring.
+
+## Acceptance Criteria
+
+- [ ] Create production Stripe account
+- [ ] Configure Stripe Connect settings
+- [ ] Set up webhook endpoints in production
+- [ ] Configure environment variables securely
+- [ ] Set up Stripe webhook signing secrets
+- [ ] Configure platform fee structure
+- [ ] Set up earnings hold period
+- [ ] Implement logging for payment events
+- [x] Set up error tracking (e.g., Sentry)
+- [ ] Configure monitoring dashboards
+- [ ] Set up alerts for failed payments
+- [ ] Document deployment process
+- [ ] Create rollback procedures
+- [ ] Set up database backups
+- [ ] Configure staging environment for testing
+
+## Related Notes
+
+- [[Docs/services/SERVICES_WORKFLOW_ENABLEMENT_PLAN]] — Phase 8
+- [[Docs/services/STRIPE_INTEGRATION]] — Stripe configuration
+- [[Docs/deployment/DEPLOYMENT_SETUP]] — Fly.io deployment setup
+---
+title: "[#25] Security Audit for Payment and Payout Systems"
+type: issue
+status: open
+linked-repo: https://github.com/kanya01/COLABS
+linked-pr: ""
+linked-issue: https://github.com/kanya01/COLABS/issues/25
+tags: [epic-services-workflow, priority-critical, security, critical]
+updated: 2026-02-21
+---
+
+# [#25] Security Audit for Payment and Payout Systems
+
+> **GitHub**: https://github.com/kanya01/COLABS/issues/25
+> **Opened**: 2026-01-14
+> **Labels**: `epic:services-workflow` `priority:critical` `security` `critical`
+> **Assignee**: —
+> **Ref**: Services Workflow Implementation Issues #19
+
+## Description
+
+Conduct security review and implement security best practices for payment handling across the platform.
+
+## Acceptance Criteria
+
+- [ ] Verify webhook signature validation
+- [ ] Implement idempotency keys for payments
+- [ ] Add rate limiting on payment endpoints
+- [ ] Verify authorization checks on all endpoints
+- [ ] Audit server-side validation for all inputs
+- [ ] Check amount limits and reasonability
+- [ ] Verify no sensitive data in logs
+- [ ] Ensure HTTPS enforcement
+- [ ] Review CSRF protection
+- [ ] Audit database query security (SQL injection)
+- [ ] Review file upload security
+- [ ] Implement Content Security Policy headers
+- [ ] Add monitoring for suspicious activities
+- [ ] Document security considerations
+- [ ] Create security testing checklist
+
+## Related Notes
+
+- [[Docs/services/STRIPE_INTEGRATION]] — Stripe webhook and payment setup
+- [[Docs/services/SERVICES_WORKFLOW_ENABLEMENT_PLAN]] — Phase 7
+- [[Docs/services/FILE_UPLOAD_GUIDE]] — File upload security context
+---
+title: "[#22] End-to-End Integration Tests for Critical Workflows"
+type: issue
+status: open
+linked-repo: https://github.com/kanya01/COLABS
+linked-pr: ""
+linked-issue: https://github.com/kanya01/COLABS/issues/22
+tags: [epic-services-workflow, testing, integration, quality]
+updated: 2026-02-21
+---
+
+# [#22] End-to-End Integration Tests for Critical Workflows
+
+> **GitHub**: https://github.com/kanya01/COLABS/issues/22
+> **Opened**: 2026-01-14
+> **Labels**: `epic:services-workflow` `testing` `integration` `quality`
+> **Assignee**: —
+> **Parent**: [[Issues/Open/[#55] Implement testing strategy for front end typescript components]]
+> **Ref**: Services Workflow Implementation Issues #16
+
+## Description
+
+Create integration tests for complete workflows from service creation to payout.
+
+## Acceptance Criteria
+
+- [ ] **Booking flow** — tier selection → PaymentIntent → mock Stripe confirm → order created → earning created
+- [ ] **Seller payout flow** — Connect account → complete orders → hold period → request payout → verify payout & earnings
+- [ ] **Order lifecycle test** — create → status transitions → revisions → deliverables → complete
+- [ ] **Webhook integration tests** — payment, Connect, and Transfer webhooks
+- [ ] Mock external Stripe API calls
+- [ ] Use realistic test data
+- [ ] Verify database state at each step
+
+## Related Notes
+
+- [[Docs/testing/TESTING_STRATEGY]] — Coverage goals
+- [[Docs/testing/TESTING_GUIDE]] — How to run tests
+- [[Docs/services/SERVICES_WORKFLOW_ENABLEMENT_PLAN]] — Phase 6.3
+- [[Docs/services/STRIPE_INTEGRATION]] — Stripe mock reference
+---
+title: "[#21] Comprehensive Backend Testing for Services Workflow"
+type: issue
+status: open
+linked-repo: https://github.com/kanya01/COLABS
+linked-pr: ""
+linked-issue: https://github.com/kanya01/COLABS/issues/21
+tags: [backend, epic-services-workflow, testing, quality]
+updated: 2026-02-21
+---
+
+# [#21] Comprehensive Backend Testing for Services Workflow
+
+> **GitHub**: https://github.com/kanya01/COLABS/issues/21
+> **Opened**: 2026-01-14
+> **Labels**: `backend` `epic:services-workflow` `testing` `quality`
+> **Assignee**: —
+> **Ref**: Services Workflow Implementation Issues #15
+
+## Description
+
+Create a comprehensive Rails test suite for all models and controllers related to the services workflow.
+
+## Acceptance Criteria
+
+- [ ] `ServiceTier` model tests — validations, associations, enums
+- [ ] `Order` model tests — status transitions, calculations, validations
+- [ ] `OrderRevision` model tests — limit enforcement, numbering
+- [ ] `OrderDeliverable` model tests — file attachments
+- [ ] `SellerProfile` model tests — earnings calculations, account status
+- [ ] `Earning` model tests — platform fee calculations, status
+- [ ] `Payout` model tests — validations, status
+- [ ] `PaymentsController` tests — intent creation, webhooks
+- [ ] `StripeConnectController` tests — account creation, onboarding
+- [ ] `PayoutsController` tests — balance checks, payout creation
+- [ ] `OrdersController` tests — CRUD, authorization
+- [ ] `OrderRevisionsController` tests — limit enforcement
+- [ ] `OrderDeliverablesController` tests — upload, download
+- [ ] Achieve >90% code coverage on new code
+- [ ] Add fixtures for all new models
+- [ ] Mock Stripe API calls appropriately
+
+## Related Notes
+
+- [[Docs/testing/TESTING_STRATEGY]] — Coverage target (>90%)
+- [[Docs/testing/TESTING_GUIDE]] — How to run RSpec tests
+- [[Docs/services/SERVICES_WORKFLOW_ENABLEMENT_PLAN]] — Phase 6.1 and 6.2
+- [[Docs/design/SYSTEM_ONTOLOGY]] — Full model reference

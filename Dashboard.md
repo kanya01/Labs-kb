@@ -1,15 +1,25 @@
 # System Dashboard
 
-> Last synced: 2026-02-20
+> Last synced: 2026-02-21 · **8 open issues** · [kanya01/COLABS](https://github.com/kanya01/COLABS)
 
 ---
 
-## 🔴 Open Issues
+## 🔴 Open Issues (8)
 ```dataview
 TABLE status, linked-issue, linked-repo, tags
 FROM "Issues/Open"
 SORT file.mtime DESC
 ```
+
+### Quick Links — Open Issues
+- [[Issues/Open/[#76] Admin hub]] — `backend` `api` `dashboard` `critical`
+- [[Issues/Open/[#57] Dockerize Development Environment]] — `priority:critical` `devops`
+- [[Issues/Open/[#55] Implement testing strategy for front end typescript components]]
+- [[Issues/Open/[#54] Fix failing lint & type checks]] — `priority:critical` `frontend` `quality`
+- [[Issues/Open/[#26] Production Configuration and Deployment Setup]] — `deployment` `devops`
+- [[Issues/Open/[#25] Security Audit for Payment and Payout Systems]] — `priority:critical` `security`
+- [[Issues/Open/[#22] End-to-End Integration Tests for Critical Workflows]] — `testing` `integration`
+- [[Issues/Open/[#21] Comprehensive Backend Testing for Services Workflow]] — `backend` `testing`
 
 ---
 
