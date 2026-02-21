@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "664a6574acfb6beb",
+        "id": "40e3346b4e383b7f",
         "type": "tabs",
         "children": [
           {
-            "id": "b6016642806d99be",
+            "id": "8f291acb02c075dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_System Map/Architecture.md",
+                "file": "_System Map/Components.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -24,11 +24,11 @@
                   "showSearch": false,
                   "searchQuery": "",
                   "backlinkCollapsed": false,
-                  "unlinkedCollapsed": false
+                  "unlinkedCollapsed": true
                 }
               },
               "icon": "lucide-file",
-              "title": "Architecture"
+              "title": "Components"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#ux",
+                "query": "tag:#visual-language",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_System Map/Architecture.md",
+                "file": "_System Map/Components.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Architecture"
+              "title": "Backlinks for Components"
             }
           },
           {
@@ -123,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_System Map/Architecture.md",
+                "file": "_System Map/Components.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Architecture"
+              "title": "Outgoing links from Components"
             }
           },
           {
@@ -166,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_System Map/Architecture.md",
+                "file": "_System Map/Components.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Architecture"
+              "title": "Outline of Components"
             }
           }
         ]
@@ -195,15 +195,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b6016642806d99be",
+  "active": "8f291acb02c075dc",
   "lastOpenFiles": [
+    "_System Map/Decisions.md",
+    "_System Map/Components.md",
+    "Docs/admin/SUPPORT_SYSTEM_PLAN.md",
+    "_System Map/Architecture.md",
+    "Docs/services/SERVICES_WORKFLOW_ENABLEMENT_PLAN.md",
+    "Docs/design/DESIGN_AND_ROADMAP.md",
     "Issues/Open/[.md",
     "Dashboard.md",
     "Docs/PLATFORM_ROADMAP.md",
     "Issues/Open/[",
     "Docs/api/API_OVERVIEW.md",
-    "_System Map/Decisions.md",
-    "_System Map/Architecture.md",
     "2026-02-20.md",
     "Welcome.md",
     "Docs/INDEX.md",
@@ -221,14 +225,10 @@
     "Docs/email/EMAIL_SYSTEM_PLAN.md",
     "Docs/email/EMAIL_NOTIFICATION_STATUS.md",
     "Docs/email",
-    "Docs/admin/SUPPORT_SYSTEM_PLAN.md",
     "Docs/admin",
     "Docs/services/FILE_UPLOAD_GUIDE.md",
     "Docs/services/SELLER_GUIDE.md",
     "Docs/services/BUYER_GUIDE.md",
-    "Docs/services/REVIEWS_SYSTEM_PLAN.md",
-    "Docs/services/SERVICES_KNOWN_ISSUES.md",
-    "Docs/services/SERVICES_WORKFLOW_IMPLEMENTATION_ISSUES.md",
     "Docs/services",
     "Docs/deployment",
     "Docs/api",
