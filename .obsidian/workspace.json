@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_System Map/Architecture.md",
+                "file": "Dashboard.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Architecture"
+              "title": "Dashboard"
             }
           }
         ]
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_System Map/Architecture.md",
+                "file": "Dashboard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Architecture"
+              "title": "Backlinks for Dashboard"
             }
           },
           {
@@ -123,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_System Map/Architecture.md",
+                "file": "Dashboard.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Architecture"
+              "title": "Outgoing links from Dashboard"
             }
           },
           {
@@ -166,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_System Map/Architecture.md",
+                "file": "Dashboard.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Architecture"
+              "title": "Outline of Dashboard"
             }
           }
         ]
@@ -197,6 +197,7 @@
   },
   "active": "8f291acb02c075dc",
   "lastOpenFiles": [
+    "_System Map/Architecture.md",
     "_System Map/Decisions.md",
     "Docs/PLATFORM_ROADMAP.md",
     "Docs/email/EMAIL_SYSTEM_PLAN.md",
@@ -204,7 +205,6 @@
     "Progress/Milestones.md",
     "_System Map/Components.md",
     "Docs/admin/SUPPORT_SYSTEM_PLAN.md",
-    "_System Map/Architecture.md",
     "Docs/services/SERVICES_WORKFLOW_ENABLEMENT_PLAN.md",
     "Docs/design/DESIGN_AND_ROADMAP.md",
     "Issues/Open/[.md",
