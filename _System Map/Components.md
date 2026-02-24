@@ -39,8 +39,8 @@ Stack: **Next.js 15 · React 19 · TypeScript · Tailwind CSS · Framer Motion �
 | `/auth/callback` | Auth0 OAuth return URL — exchanges code for JWT |
 
 **Issues touching frontend:**
-- [[Issues/Open/[#54] Fix failing lint & type checks]] — ESLint violations and TypeScript errors across all pages
-- [[Issues/Open/[#55] Implement testing strategy for front end typescript components]] — unit + E2E coverage plan
+- [[open#54] Fix failing lint & type checks]] — ESLint violations and TypeScript errors across all pages
+- [[open#55] Implement testing strategy for front end typescript components]] — unit + E2E coverage plan
 
 **Docs:** [[Docs/design/PROJECT_STRUCTURE]] · [[Docs/design/DESIGN_AND_ROADMAP]] · [[Docs/design/STYLES_AND_CONVENTIONS]]
 
@@ -65,7 +65,7 @@ Centralised HTTP layer for all backend requests. Responsibilities:
 - Surfaces typed error responses for React Query consumers
 - Handles 401 responses (token expiry → logout / refresh)
 
-**Issues:** [[Issues/Open/[#54] Fix failing lint & type checks]] (type errors in client layer)
+**Issues:** [[open#54] Fix failing lint & type checks]] (type errors in client layer)
 
 ---
 
@@ -140,7 +140,7 @@ Core lifecycle controller. Filterable by `role=buyer|seller` and `status`.
 
 State transitions validated by `OrderService`. See state machine in [[_System Map/Architecture]].
 **Docs:** [[Docs/services/SERVICES_WORKFLOW_IMPLEMENTATION_GUIDE]] · [[Docs/services/BUYER_GUIDE]] · [[Docs/services/SELLER_GUIDE]]
-**Issues:** [[Issues/Open/[#21] Comprehensive Backend Testing for Services Workflow]] · [[Issues/Open/[#22] End-to-End Integration Tests for Critical Workflows]]
+**Issues:** [[open#21] Comprehensive Backend Testing for Services Workflow]] · [[open#22] End-to-End Integration Tests for Critical Workflows]]
 
 ---
 
@@ -152,7 +152,7 @@ State transitions validated by `OrderService`. See state machine in [[_System Ma
 | `PUT /:revision_id` — respond | Seller only; can set `start_revision: true` to move order back to `in_progress` |
 
 Returns `revisions_used`, `revisions_limit`, `revisions_remaining` on list.
-**Issues:** [[Issues/Open/[#21] Comprehensive Backend Testing for Services Workflow]]
+**Issues:** [[open#21] Comprehensive Backend Testing for Services Workflow]]
 
 ---
 
@@ -177,7 +177,7 @@ Returns `revisions_used`, `revisions_limit`, `revisions_remaining` on list.
 | `GET /status` | Returns current PaymentIntent status |
 
 **Docs:** [[Docs/services/STRIPE_INTEGRATION]]
-**Issues:** [[Issues/Open/[#25] Security Audit for Payment and Payout Systems]]
+**Issues:** [[open#25] Security Audit for Payment and Payout Systems]]
 
 ---
 
@@ -194,7 +194,7 @@ Single endpoint handling all Stripe events. Validates signature using `STRIPE_WE
 | `account.application.authorized/deauthorized` | `StripeConnectService` |
 | `transfer.created/updated/failed/reversed` | `PayoutService` — updates Payout record |
 
-**Issues:** [[Issues/Open/[#25] Security Audit for Payment and Payout Systems]] · [[Issues/Open/[#22] End-to-End Integration Tests for Critical Workflows]]
+**Issues:** [[open#25] Security Audit for Payment and Payout Systems]] · [[open#22] End-to-End Integration Tests for Critical Workflows]]
 
 ---
 
@@ -208,7 +208,7 @@ Single endpoint handling all Stripe events. Validates signature using `STRIPE_WE
 | `GET /dashboard_link` | Returns Stripe Express dashboard login URL |
 
 **Docs:** [[Docs/services/STRIPE_INTEGRATION]] · [[Docs/services/SELLER_GUIDE]]
-**Issues:** [[Issues/Open/[#25] Security Audit for Payment and Payout Systems]] · [[Issues/Open/[#26] Production Configuration and Deployment Setup]]
+**Issues:** [[open#25] Security Audit for Payment and Payout Systems]] · [[open#26] Production Configuration and Deployment Setup]]
 
 ---
 
@@ -222,7 +222,7 @@ Single endpoint handling all Stripe events. Validates signature using `STRIPE_WE
 | `POST /payouts` | Request payout for `amount`; deducts from available balance via Stripe Transfer |
 | `GET /payouts/balance` | `{ available, pending }` |
 
-**Issues:** [[Issues/Open/[#76] Admin hub]] (admin view of platform-wide equivalents)
+**Issues:** [[open#76] Admin hub]] (admin view of platform-wide equivalents)
 
 ---
 
@@ -292,7 +292,7 @@ The central orchestrator for the order lifecycle.
 | `revision_requested` | `in_progress`, `cancelled` |
 
 **Docs:** [[Docs/services/SERVICES_WORKFLOW_ENABLEMENT_PLAN]] · [[Docs/design/SYSTEM_ONTOLOGY]]
-**Issues:** [[Issues/Open/[#21] Comprehensive Backend Testing for Services Workflow]] · [[Issues/Open/[#22] End-to-End Integration Tests for Critical Workflows]]
+**Issues:** [[open#21] Comprehensive Backend Testing for Services Workflow]] · [[open#22] End-to-End Integration Tests for Critical Workflows]]
 
 ---
 
@@ -310,7 +310,7 @@ Wraps all Stripe PaymentIntent interactions.
 | `process_successful_payment()` | Called by webhook handler — transitions order to `paid` |
 
 **Docs:** [[Docs/services/STRIPE_INTEGRATION]]
-**Issues:** [[Issues/Open/[#25] Security Audit for Payment and Payout Systems]]
+**Issues:** [[open#25] Security Audit for Payment and Payout Systems]]
 
 ---
 
@@ -351,7 +351,7 @@ Handles payout creation via Stripe Transfer and webhook reconciliation.
 | Webhook: `handle_transfer_reversed` | Handles reversal |
 
 **Docs:** [[Docs/services/STRIPE_INTEGRATION]]
-**Issues:** [[Issues/Open/[#25] Security Audit for Payment and Payout Systems]] · [[Issues/Open/[#26] Production Configuration and Deployment Setup]]
+**Issues:** [[open#25] Security Audit for Payment and Payout Systems]] · [[open#26] Production Configuration and Deployment Setup]]
 
 ---
 
@@ -371,7 +371,7 @@ Manages seller Stripe Express account lifecycle.
 | Webhook: `handle_account_authorized/deauthorized` | Updates onboarding and payout eligibility |
 
 **Docs:** [[Docs/services/STRIPE_INTEGRATION]] · [[Docs/services/SELLER_GUIDE]]
-**Issues:** [[Issues/Open/[#26] Production Configuration and Deployment Setup]]
+**Issues:** [[open#26] Production Configuration and Deployment Setup]]
 
 ---
 
@@ -390,7 +390,7 @@ The single entry point for all notification creation. Keeps notification logic o
 `order_created`, `payment_confirmed`, `order_in_progress`, `deliverable_uploaded`, `order_in_review`, `revision_requested`, `revision_started`, `order_completed`, `order_cancelled`, `message_received`, `earnings_available`, `payout_processed`
 
 **Docs:** [[Docs/email/EMAIL_SYSTEM_PLAN]] · [[Docs/email/EMAIL_NOTIFICATION_STATUS]]
-**Issues:** [[Issues/Open/[#21] Comprehensive Backend Testing for Services Workflow]]
+**Issues:** [[open#21] Comprehensive Backend Testing for Services Workflow]]
 
 ---
 
@@ -415,7 +415,7 @@ All 14 entities. Full schemas, state machines, and indexes documented in [[Docs/
 | **Notification** | `notifications` | `belongs_to` user | 12 types; JSONB `metadata`; `email_sent` flag; `read`/`read_at` |
 | **NewsletterSubscriber** | `newsletter_subscribers` | Standalone | Double opt-in via `confirmation_token`; status: active/unsubscribed/bounced |
 
-**Issues:** [[Issues/Open/[#21] Comprehensive Backend Testing for Services Workflow]] (model specs for Order, ServiceTier, Earning, Payout, SellerProfile, OrderRevision, OrderDeliverable)
+**Issues:** [[open#21] Comprehensive Backend Testing for Services Workflow]] (model specs for Order, ServiceTier, Earning, Payout, SellerProfile, OrderRevision, OrderDeliverable)
 
 ---
 
@@ -466,7 +466,7 @@ Branded design: dark theme, live.o visual language, mobile-responsive.
 **Env vars**: `STRIPE_SECRET_KEY`, `STRIPE_WEBHOOK_SECRET`, `PLATFORM_FEE_PERCENTAGE`
 
 **Docs:** [[Docs/services/STRIPE_INTEGRATION]]
-**Issues:** [[Issues/Open/[#25] Security Audit for Payment and Payout Systems]] · [[Issues/Open/[#26] Production Configuration and Deployment Setup]]
+**Issues:** [[open#25] Security Audit for Payment and Payout Systems]] · [[open#26] Production Configuration and Deployment Setup]]
 
 ---
 
@@ -547,7 +547,7 @@ Runs inside the Rails process (or as a separate puma worker in prod). Handles:
 | `ci.yml` | Pull requests | Lint (ESLint) · TypeScript type check · Next.js build · RSpec (backend) |
 | `fly-deploy.yml` | Push to `main` | Docker build → deploy to Fly.io |
 
-⚠️ Lint + type checks are **not currently blocking** in CI — fixing this is tracked in [[Issues/Open/[#54] Fix failing lint & type checks]].
+⚠️ Lint + type checks are **not currently blocking** in CI — fixing this is tracked in [[open#54] Fix failing lint & type checks]].
 
 ### Fly.io (Production)
 
@@ -557,7 +557,7 @@ Runs inside the Rails process (or as a separate puma worker in prod). Handles:
 - `liveo.space` is the live domain
 
 **Docs:** [[Docs/deployment/DEPLOYMENT_SETUP]]
-**Issues:** [[Issues/Open/[#57] Dockerize Development Environment]] · [[Issues/Open/[#26] Production Configuration and Deployment Setup]]
+**Issues:** [[open#57] Dockerize Development Environment]] · [[open#26] Production Configuration and Deployment Setup]]
 
 ---
 
@@ -567,12 +567,12 @@ These are spec'd but not yet built.
 
 | Component | Status | Spec |
 |---|---|---|
-| **Admin Hub** | 📋 Planned (Phase 4) | Private panel: user mgmt, error monitoring, metrics, newsletter broadcast — [[Docs/admin/ADMIN_HUB_PLAN]] · [[Issues/Open/[#76] Admin hub]] |
+| **Admin Hub** | 📋 Planned (Phase 4) | Private panel: user mgmt, error monitoring, metrics, newsletter broadcast — [[Docs/admin/ADMIN_HUB_PLAN]] · [[open#76] Admin hub]] |
 | **Support System** | 📋 Planned (Phase 5) | Help form, ticket lifecycle, admin response, FAQ — [[Docs/admin/SUPPORT_SYSTEM_PLAN]] |
 | **Reviews & Ratings** | 📋 Planned (Phase 6a) | Real review model replacing hardcoded `rating`/`reviewsCount` — [[Docs/services/REVIEWS_SYSTEM_PLAN]] |
 | **Messaging v2** | 📋 Planned (Phase 6b) | File sharing, service offers, order initiation from chat, rich message types — [[Docs/messaging/MESSAGING_ENHANCEMENT_PLAN]] |
-| **Frontend Test Suite** | 🔧 In Progress | Jest unit + Cypress E2E — [[Issues/Open/[#55] Implement testing strategy for front end typescript components]] · [[Docs/testing/FRONTEND_TESTING_PLAN]] |
-| **Backend Test Suite** | 🔧 In Progress | RSpec model + request + integration specs — [[Issues/Open/[#21] Comprehensive Backend Testing for Services Workflow]] · [[Issues/Open/[#22] End-to-End Integration Tests for Critical Workflows]] |
+| **Frontend Test Suite** | 🔧 In Progress | Jest unit + Cypress E2E — [[open#55] Implement testing strategy for front end typescript components]] · [[Docs/testing/FRONTEND_TESTING_PLAN]] |
+| **Backend Test Suite** | 🔧 In Progress | RSpec model + request + integration specs — [[open#21] Comprehensive Backend Testing for Services Workflow]] · [[open#22] End-to-End Integration Tests for Critical Workflows]] |
 
 ---
 
@@ -581,12 +581,12 @@ These are spec'd but not yet built.
 | Component | Primary Doc | Open Issues |
 |---|---|---|
 | Discovery page | [[Docs/discovery/DISCOVERY_FLOW_PLAN]] | — |
-| Checkout / Payments | [[Docs/services/STRIPE_INTEGRATION]] | [[Issues/Open/[#25] Security Audit for Payment and Payout Systems]] · [[Issues/Open/[#26] Production Configuration and Deployment Setup]] |
-| Order lifecycle | [[Docs/services/SERVICES_WORKFLOW_ENABLEMENT_PLAN]] | [[Issues/Open/[#21] Comprehensive Backend Testing for Services Workflow]] · [[Issues/Open/[#22] End-to-End Integration Tests for Critical Workflows]] |
+| Checkout / Payments | [[Docs/services/STRIPE_INTEGRATION]] | [[open#25] Security Audit for Payment and Payout Systems]] · [[open#26] Production Configuration and Deployment Setup]] |
+| Order lifecycle | [[Docs/services/SERVICES_WORKFLOW_ENABLEMENT_PLAN]] | [[open#21] Comprehensive Backend Testing for Services Workflow]] · [[open#22] End-to-End Integration Tests for Critical Workflows]] |
 | Notifications + Email | [[Docs/email/EMAIL_NOTIFICATION_STATUS]] | — |
-| Stripe Connect (seller) | [[Docs/services/STRIPE_INTEGRATION]] | [[Issues/Open/[#25] Security Audit for Payment and Payout Systems]] |
+| Stripe Connect (seller) | [[Docs/services/STRIPE_INTEGRATION]] | [[open#25] Security Audit for Payment and Payout Systems]] |
 | Auth0 | [[Docs/api/AUTH0_SETUP]] | — |
 | File uploads | [[Docs/services/FILE_UPLOAD_GUIDE]] | — |
-| Deployment | [[Docs/deployment/DEPLOYMENT_SETUP]] | [[Issues/Open/[#57] Dockerize Development Environment]] · [[Issues/Open/[#26] Production Configuration and Deployment Setup]] |
-| Frontend quality | [[Docs/testing/FRONTEND_TESTING_PLAN]] | [[Issues/Open/[#54] Fix failing lint & type checks]] · [[Issues/Open/[#55] Implement testing strategy for front end typescript components]] |
-| Admin panel | [[Docs/admin/ADMIN_HUB_PLAN]] | [[Issues/Open/[#76] Admin hub]] |
+| Deployment | [[Docs/deployment/DEPLOYMENT_SETUP]] | [[open#57] Dockerize Development Environment]] · [[open#26] Production Configuration and Deployment Setup]] |
+| Frontend quality | [[Docs/testing/FRONTEND_TESTING_PLAN]] | [[open#54] Fix failing lint & type checks]] · [[open#55] Implement testing strategy for front end typescript components]] |
+| Admin panel | [[Docs/admin/ADMIN_HUB_PLAN]] | [[open#76] Admin hub]] |
