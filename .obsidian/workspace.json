@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docs/PLATFORM_ROADMAP.md",
+                "file": "Docs/admin/ADMIN_HUB_PLAN.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "PLATFORM_ROADMAP"
+              "title": "ADMIN_HUB_PLAN"
             }
           }
         ]
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docs/PLATFORM_ROADMAP.md",
+                "file": "Docs/admin/ADMIN_HUB_PLAN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for PLATFORM_ROADMAP"
+              "title": "Backlinks for ADMIN_HUB_PLAN"
             }
           },
           {
@@ -123,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docs/PLATFORM_ROADMAP.md",
+                "file": "Docs/admin/ADMIN_HUB_PLAN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from PLATFORM_ROADMAP"
+              "title": "Outgoing links from ADMIN_HUB_PLAN"
             }
           },
           {
@@ -166,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docs/PLATFORM_ROADMAP.md",
+                "file": "Docs/admin/ADMIN_HUB_PLAN.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of PLATFORM_ROADMAP"
+              "title": "Outline of ADMIN_HUB_PLAN"
             }
           },
           {
@@ -207,12 +207,12 @@
   },
   "active": "8f291acb02c075dc",
   "lastOpenFiles": [
+    "Docs/PLATFORM_ROADMAP.md",
     "Docs/INDEX.md",
     "Docs/testing/TESTING_STRATEGY.md",
     "Dashboard.md",
     "_System Map/Architecture.md",
     "_System Map/Decisions.md",
-    "Docs/PLATFORM_ROADMAP.md",
     "Docs/email/EMAIL_SYSTEM_PLAN.md",
     "Progress/2026-02-21.md",
     "Progress/Milestones.md",

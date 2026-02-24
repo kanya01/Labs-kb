@@ -52,8 +52,8 @@ Four issues to resolve before adding features. See [[Docs/services/SERVICES_KNOW
 	- Resolved
 - **3.3** Auth persistence — token refresh, cross-tab sync, session recovery (P2, 3–5 days)
 	- Investigating
-- **3.4** Lint & type check failures — fix ESLint violations, TypeScript errors; make CI blocking (P1, 2–3 days)
-	- Need to categorise by priority and address in chunks so as to not affect functionality
+- **3.4** ~~Lint & type check failures — fix ESLint violations, TypeScript errors; make CI blocking (P1, 2–3 days)~~
+	- ~~Need to categorise by priority and address in chunks so as to not affect functionality~~
 
 
 ## 📋 Phase 4 — Admin Hub (Planned, 3–4 weeks)
