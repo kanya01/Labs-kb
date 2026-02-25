@@ -16,8 +16,21 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "01149533ce7f906b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.7"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -188,7 +201,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "27afde7d31a6be4d",
+  "active": "01149533ce7f906b",
   "lastOpenFiles": [
     "Issues/Open/open.md",
     "Issues/Open/[#145] [FUTURE-06] Exportable Analytics & Reports.md",
