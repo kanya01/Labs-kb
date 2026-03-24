@@ -28,9 +28,21 @@
               "icon": "lucide-book-up",
               "title": "Release Notes 1.11.7"
             }
+          },
+          {
+            "id": "5985aa1cbbb93895",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.12.7"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -201,7 +213,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "01149533ce7f906b",
+  "active": "5985aa1cbbb93895",
   "lastOpenFiles": [
     "Issues/Open/open.md",
     "Issues/Open/[#145] [FUTURE-06] Exportable Analytics & Reports.md",
