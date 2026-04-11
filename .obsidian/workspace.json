@@ -33,16 +33,27 @@
             "id": "5985aa1cbbb93895",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.12.7"
+                "file": "Docs/email/EMAIL_NOTIFICATION_STATUS.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.12.7"
+              "icon": "lucide-file",
+              "title": "EMAIL_NOTIFICATION_STATUS"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "a27f8bd7db034670",
@@ -213,8 +225,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5985aa1cbbb93895",
+  "active": "27afde7d31a6be4d",
   "lastOpenFiles": [
+    "Docs/email/EMAIL_NOTIFICATION_STATUS.md",
     "Issues/Open/open.md",
     "Issues/Open/[#145] [FUTURE-06] Exportable Analytics & Reports.md",
     "Issues/Open/[#144] [FUTURE-05] Content Moderation Tooling.md",
@@ -241,7 +254,6 @@
     "Issues/Open/[#125] [ADM-09] Admin Orders Controller.md.tmp.5.1771910559095",
     "Issues/Open/[#124] [ADM-08] Admin Users Controller.md",
     "Issues/Open/[#123] [ADM-07] Admin Dashboard Controller.md",
-    "Issues/Open/[#122] [ADM-06] Platform Error Logging Middleware.md",
     "Issues/Open/[",
     "Docs/testing",
     "Docs/discovery",
